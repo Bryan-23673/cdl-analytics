@@ -1,0 +1,24 @@
+# Environment variables
+.env
+
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Local data
+data/raw/*
+data/processed/*
+
+# Keep data folders in Git
+!data/raw/.gitkeep
+!data/processed/.gitkeep
